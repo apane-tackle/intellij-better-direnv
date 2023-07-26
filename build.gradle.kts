@@ -6,7 +6,7 @@ plugins {
     // Java support
     id("java")
     // Gradle IntelliJ Plugin
-    id("org.jetbrains.intellij") version "1.8.0"
+    id("org.jetbrains.intellij") version "1.11.0"
     // Gradle Changelog Plugin
     id("org.jetbrains.changelog") version "1.3.1"
     id("org.sonarqube") version "3.3"
@@ -32,6 +32,9 @@ dependencies {
     implementation(project(":better_direnv-products-idea"))
     implementation(project(":better_direnv-products-nodejs"))
     implementation(project(":better_direnv-products-shellscript"))
+    implementation(project(":better_direnv-products-python"))
+    implementation(project(":better_direnv-products-phpstorm"))
+    implementation(project(":better_direnv-products-rubymine"))
 }
 
 // Configure Gradle IntelliJ Plugin - read more: https://github.com/JetBrains/gradle-intellij-plugin

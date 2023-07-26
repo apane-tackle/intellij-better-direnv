@@ -5,7 +5,10 @@ include(
     "modules/products/goland",
     "modules/products/idea",
     "modules/products/nodejs",
-    "modules/products/shellscript"
+    "modules/products/shellscript",
+    "modules/products/python",
+    "modules/products/phpstorm",
+    "modules/products/rubymine"
 )
 
 rootProject.children.forEach {
